@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harbor & Key Realty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a href="#" class="brand">Harbor<span>&</span>Key</a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#listings">Listings</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Trusted Real Estate Advisors</p>
+          <h1>Find your perfect space to live, grow, and invest.</h1>
+          <p class="lead">We help buyers, sellers, and investors move confidently with local expertise and modern market insight.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#listings">View Listings</a>
+            <a class="btn btn-ghost" href="#contact">Book Consultation</a>
+          </div>
+          <div class="stats">
+            <div><strong>1,200+</strong><span>Homes Sold</span></div>
+            <div><strong>98%</strong><span>Client Satisfaction</span></div>
+            <div><strong>15</strong><span>Years Experience</span></div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Property Spotlight</h2>
+          <p>Modern waterfront villa with private dock, 5 bedrooms, and panoramic skyline views.</p>
+          <ul>
+            <li>5 Beds • 4.5 Baths</li>
+            <li>4,200 sq ft</li>
+            <li>From $2.45M</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <h2>What We Do</h2>
+        <div class="cards three">
+          <article class="card">
+            <h3>Residential Sales</h3>
+            <p>End-to-end support for buying and selling homes with clear guidance at each step.</p>
+          </article>
+          <article class="card">
+            <h3>Property Marketing</h3>
+            <p>Professional media, targeted campaigns, and data-backed positioning that attracts qualified buyers.</p>
+          </article>
+          <article class="card">
+            <h3>Investment Advisory</h3>
+            <p>Opportunity analysis and portfolio strategy for rental, development, and long-term growth assets.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="listings" class="section alt">
+      <div class="container">
+        <h2>Featured Listings</h2>
+        <div class="cards">
+          <article class="listing">
+            <div class="listing-body">
+              <h3>Sunset Ridge Estate</h3>
+              <p>Hillside luxury home with open-plan interiors and private garden terrace.</p>
+              <span>$1.85M • 4 Beds • 3 Baths</span>
+            </div>
+          </article>
+          <article class="listing">
+            <div class="listing-body">
+              <h3>Downtown Loft 22</h3>
+              <p>Designer loft in the arts district, steps from dining and business hubs.</p>
+              <span>$890K • 2 Beds • 2 Baths</span>
+            </div>
+          </article>
+          <article class="listing">
+            <div class="listing-body">
+              <h3>Oakview Family Residence</h3>
+              <p>Move-in ready suburban property near top schools and community parks.</p>
+              <span>$1.12M • 5 Beds • 3.5 Baths</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container split">
+        <div>
+          <h2>About Harbor & Key Realty</h2>
+          <p>We are a boutique real estate firm focused on premium client experience, transparent communication, and high-performance outcomes.</p>
+          <p>Our team blends neighborhood expertise, strong negotiation, and technology-driven insights to maximize value in every transaction.</p>
+        </div>
+        <blockquote>
+          “Harbor & Key sold our home above asking in 10 days and made the whole process seamless.”
+          <cite>— Ava & Daniel K.</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <h2>Let’s Talk About Your Next Move</h2>
+        <form class="contact-form" novalidate>
+          <label>
+            Full Name
+            <input type="text" name="name" required>
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send Inquiry</button>
+          <p class="form-note" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Harbor & Key Realty. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
